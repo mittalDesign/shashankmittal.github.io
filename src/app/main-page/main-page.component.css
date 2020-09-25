@@ -1,0 +1,31 @@
+.landing-section{
+  height: 100vh;
+}
+
+.content {
+  /*height: calc(100vh - 50px);*/
+}
+.img-fluid{
+  max-width: 100%;
+
+}
+/*.profile{*/
+  /*height: calc(100vh - 50px);*/
+/*}*/
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.typing{
+  margin: auto;
+  font-family: "Apple Color Emoji";
+  font-style: italic;
+}
+@media only screen and (max-width: 575px) {
+ .typing{
+   margin-left: 10%;
+ }
+}

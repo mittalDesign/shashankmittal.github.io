@@ -1,0 +1,103 @@
+<ul class="timeline">
+  <li (click)="showDetail()">
+    <div class="timeline-badge">
+      <i class="fa fa-graduation-cap fa-fw"></i>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">University</h4>
+        <p><b>Bachelors In Technology (Computer Science)</b> 2009-13</p>
+      </div>
+      <div class="timeline-body">
+        <div [@openClose]="isShowDetail ? 'open' : 'closed'">
+          <ul>
+            <li>Completed my Technichal Education from "Biju Patnaik University Of Technology", Odisha</li>
+            <li>Passed out from "Gandhi Institute Of Engineering and Technology" in year 2009 - 2013</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </li>
+
+
+  <li class="timeline-inverted" (click)="showDetailJob1()">
+    <div class="timeline-badge">
+      <img src='../../assets/img/misys.svg'>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">Misys Software Solutions</h4>
+        <p><b>Associate Software Developer</b> Sep.2013 - Dec.2015</p>
+      </div>
+      <div class="timeline-body">
+        <div [@openClose_1]="isShowDetailJob1 ? 'open' : 'closed'">
+          <p>Started My career with Misys as Associate Software Developer.
+          Working in challenging Financial Software (Retail Banking), Worked as a Full-stack developer.
+            Focused on FrontEnd technologies (JavaScript, HTML, CSS)</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li (click)="showDetailJob2()">
+    <div class="timeline-badge">
+      <img src='../../assets/img/bt-3.svg'>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">British Telecom(BT)</h4>
+        <p><b>Associate</b> Jan.2016 - Sep.2017</p>
+      </div>
+      <div class="timeline-body">
+        <div [@openClose_2]="isShowDetailJob2 ? 'open' : 'closed'">
+
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li class="timeline-inverted" (click)="showDetailJob3()">
+    <div class="timeline-badge">
+      <img src='../../assets/img/siemens.svg'>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">University</h4>
+        <p><b>Bachelors In Technology (Computer Science)</b> 2009-13</p>
+      </div>
+      <div class="timeline-body">
+        <div [@openClose_3]="isShowDetailJob3 ? 'open' : 'closed'">
+          <ul>
+            <li>Completed my Technichal Education from "Biju Patnaik University Of Technology", Odisha</li>
+            <li>Passed out from "Gandhi Institute Of Engineering and Technology" in year 2009 - 2013</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </li>
+
+  <li (click)="showDetailJob4()">
+    <div class="timeline-badge">
+      <img src='../../assets/img/western.svg'>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">University</h4>
+        <p><b>Bachelors In Technology (Computer Science)</b> 2009-13</p>
+      </div>
+      <div class="timeline-body">
+        <div [@openClose_4]="isShowDetailJob4 ? 'open' : 'closed'">
+          <ul>
+            <li>Completed my Technichal Education from "Biju Patnaik University Of Technology", Odisha</li>
+            <li>Passed out from "Gandhi Institute Of Engineering and Technology" in year 2009 - 2013</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </li>
+
+</ul>
+
+
+
